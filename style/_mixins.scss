@@ -1,0 +1,13 @@
+@mixin fajw ($f, $a, $j, $w) {
+    display: $f;
+    align-items: $a;
+    justify-content: $j;
+    flex-wrap: $w;
+}
+
+@mixin flmw ($f, $l, $m, $w) {
+    font-size: $f;
+    line-height: $l;
+    margin-bottom: $m;
+    width: $w;
+}

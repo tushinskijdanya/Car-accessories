@@ -1,0 +1,79 @@
+.header {
+    width: 1440px;
+    height: 90px;
+    background: #FFF;
+    padding: 23px 80px 20px 79px;
+    
+    &_container {
+        @include fajw(flex, center, space-between, wrap);
+
+        &_logo {
+            width: 93px;
+            height: 47px;
+            margin-right: 93px;
+        }
+
+        &_nav {
+            margin-right: 235px;
+
+            & ul {
+                display: flex;
+                list-style-type: none;
+                gap: 33px;
+                color: #000000E5;
+                font-size: 22px;
+                line-height: 29px;
+
+                & li:hover {
+                    color: #b7bcc5;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        &_number {
+            margin-right: 40px;
+
+            & a {
+                text-decoration: none;
+                color: #000000;
+                font-size: 18px;
+                line-height: 23px;
+            }
+        }
+
+        &_choise {
+            display: flex;
+            gap: 20px;
+
+            & a {
+                display: inline-block;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: #F2F3F5;
+
+                & img.first {
+                    transform: translate(16px, 14px);
+                }
+
+                & img.second {
+                    transform: translate(14px, 16px);
+                }
+
+                & img.third {
+                    transform: translate(13px, 12px);
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background: #b7bcc5;
+                }
+            }
+        }
+    }
+}
+
+
+            
