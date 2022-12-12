@@ -201,6 +201,7 @@ body {
   width: 1280px;
   display: flex;
   gap: 20px;
+  margin-bottom: 40px;
 }
 .section3_first {
   width: 380px;
@@ -280,10 +281,41 @@ body {
   line-height: 23px;
   color: #4200FF;
   font-family: "Roboto";
-  font-weight: bold;
+  font-weight: 500;
 }
 .section3_second_card:hover {
   cursor: -webkit-grab;
   cursor: grab;
   box-shadow: 24px 28px 41px -3px rgba(34, 60, 80, 0.2);
+}
+
+.numbering {
+  max-width: 272px;
+  margin-left: auto;
+  padding-right: 0;
+  display: flex;
+  gap: 8px;
+}
+.numbering button {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  background: #FFF;
+  border: 1px solid #DFE3E8;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.numbering button:hover {
+  cursor: pointer;
+  border: 1px solid #4200FF;
+  color: #4200FF;
+}
+.numbering button.pointer {
+  color: #C4CDD5;
+}
+.numbering button.pointer:hover {
+  cursor: pointer;
+  background: #919EAB;
+  color: #C4CDD5;
+  border-color: #919EAB;
 }/*# sourceMappingURL=style.css.map */
