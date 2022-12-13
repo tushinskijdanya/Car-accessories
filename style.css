@@ -15,7 +15,7 @@ body {
 
 .header {
   max-width: 1440px;
-  height: 90px;
+  min-height: 90px;
   background: #FFF;
   padding: 23px 80px 20px 79px;
 }
@@ -165,6 +165,7 @@ body {
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 80px;
 }
 .section2_card {
@@ -252,7 +253,7 @@ body {
 }
 .section3_second {
   width: 880px;
-  height: 732px;
+  min-height: 732px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -337,6 +338,7 @@ body {
   max-width: 1280px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 80px;
 }
 .section4_card {

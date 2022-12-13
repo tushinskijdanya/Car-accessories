@@ -86,6 +86,7 @@
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 
     &_card {
@@ -189,7 +190,7 @@
 
     &_second {
         width: 880px;
-        height: 732px;
+        min-height: 732px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -286,6 +287,7 @@
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 80px;
 
     &_card {
