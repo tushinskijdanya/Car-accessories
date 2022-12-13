@@ -1,5 +1,5 @@
 .header {
-    width: 1440px;
+    max-width: 1440px;
     height: 90px;
     background: #FFF;
     padding: 23px 80px 20px 79px;
@@ -22,6 +22,7 @@
                 gap: 33px;
                 color: #000000E5;
                 font-size: 22px;
+                font-weight: 500;
                 line-height: 29px;
 
                 & li:hover {
@@ -39,6 +40,7 @@
                 text-decoration: none;
                 color: #000000;
                 font-size: 18px;
+                font-weight: 500;
                 line-height: 23px;
             }
         }
