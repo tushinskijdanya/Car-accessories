@@ -33,7 +33,8 @@
 .next {
     width: 546px;
     display: flex;
-    gap: 80px;
+    gap: 46px;
+    background: #2F2F2F;;
 
     & li:hover {
         cursor: pointer;
@@ -53,6 +54,7 @@
 .next_ma_nav ul,
 .next_bi_contacts {
     height: 120px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
