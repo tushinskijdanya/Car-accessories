@@ -1,0 +1,88 @@
+.footer {
+    max-width: 1440px;
+    min-height: 311px;
+    background: #2F2F2F;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.first {
+    margin-right: 115px;
+
+    &_logo {
+        margin-bottom: 10px;
+    }
+
+    &_number a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+}
+
+.next {
+    width: 546px;
+    display: flex;
+    gap: 80px;
+
+    & li:hover {
+        cursor: pointer;
+        color: #b7bcc5;
+    }
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.next_ma_nav ul,
+.next_bi_contacts {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+
+    & a {
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 40px;
+        text-decoration: none;
+    }
+}
+
+.third {
+    margin-top: 6px;
+
+    &_icons {
+        display: flex;
+        gap: 26px;
+        direction: rtl;
+    }
+}
+
+
+
+
+
+    
