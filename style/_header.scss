@@ -51,6 +51,9 @@
 
             & a {
                 display: inline-block;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
                 width: 48px;
                 height: 48px;
                 border-radius: 50%;
@@ -65,7 +68,7 @@
                 }
 
                 & img.third {
-                    transform: translate(13px, 12px);
+                    transform: translate(13px, 7px);
                 }
 
                 &:hover {
