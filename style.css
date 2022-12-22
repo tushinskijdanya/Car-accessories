@@ -672,6 +672,7 @@ h6 {
   width: 1280px;
   display: flex;
   gap: 50px;
+  margin-bottom: 50px;
 }
 
 .slide {
@@ -694,13 +695,13 @@ h6 {
   border: 0;
   background: none;
 }
-.slide_bigphoto button img:hover {
+.slide_bigphoto button img.right:hover {
   cursor: pointer;
   width: 30px;
 }
 .slide_smallphoto {
   width: 100%;
-  height: 120px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -868,4 +869,61 @@ h6 {
   font-size: 24px;
   line-height: 31px;
   color: #000000;
+}
+
+.description {
+  width: 1280px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 60px;
+  background: rgb(249, 249, 249);
+  margin-bottom: 80px;
+}
+.description_table {
+  margin-bottom: 30px;
+}
+.description_table_text {
+  height: 31px;
+  display: flex;
+  gap: 60px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000;
+}
+.description_table progress {
+  width: 654px;
+  height: 4px;
+  border-radius: 4px;
+}
+.description_table progress::-webkit-progress-bar {
+  height: 4px;
+  border-radius: 4px;
+  background: rgba(196, 196, 196, 0.7);
+}
+.description_table progress::-webkit-progress-value {
+  height: 4px;
+  border-radius: 4px;
+  background: rgb(66, 0, 255);
+}
+.description_contant {
+  width: 921px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.description_contant p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.progess {
+  height: 4px;
+  width: 654px;
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
