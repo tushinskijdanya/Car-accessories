@@ -258,6 +258,12 @@
     }
 }
 
+.star img:hover {
+    cursor: pointer;
+    height: 17px;
+    border: 1px solid gold;
+}
+
 .numbering {
     max-width: 272px;
     margin-left: auto;

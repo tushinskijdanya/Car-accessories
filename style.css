@@ -81,6 +81,10 @@ body {
   background: #b7bcc5;
 }
 
+.about {
+  margin-bottom: 20px;
+}
+
 .main {
   max-width: 1440px;
   background: #FFF;
@@ -300,6 +304,12 @@ body {
   cursor: -webkit-grab;
   cursor: grab;
   box-shadow: 24px 28px 41px -3px rgba(34, 60, 80, 0.2);
+}
+
+.star img:hover {
+  cursor: pointer;
+  height: 17px;
+  border: 1px solid gold;
 }
 
 .numbering {
@@ -656,4 +666,206 @@ h6 {
   display: flex;
   gap: 26px;
   direction: rtl;
+}
+
+.details {
+  width: 1280px;
+  display: flex;
+  gap: 50px;
+}
+
+.slide {
+  width: 600px;
+}
+.slide_bigphoto {
+  width: 100%;
+  height: 460px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 21px;
+  padding-right: 21px;
+}
+.slide_bigphoto button {
+  border: 0;
+  background: none;
+}
+.slide_bigphoto button img:hover {
+  cursor: pointer;
+  width: 30px;
+}
+.slide_smallphoto {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.slide_smallphoto_card {
+  width: 100px;
+  height: 90px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide_smallphoto_card:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  height: 100px;
+}
+.slide_smallphoto_card:hover img {
+  width: 80px;
+}
+
+.contant {
+  padding-top: 30px;
+}
+.contant h2 {
+  width: 612px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -0.005em;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.contant h4 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  text-decoration: underline;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.contant_grade {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 27px;
+}
+.contant_grade_star {
+  display: flex;
+  gap: 5.5px;
+}
+.contant_grade_star button {
+  background: none;
+  border: 0;
+}
+.contant_grade_star button:hover {
+  cursor: pointer;
+}
+.contant_grade p {
+  display: flex;
+  gap: 10px;
+}
+.contant_row {
+  display: flex;
+  gap: 70px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 55px;
+}
+.contant_row p {
+  margin-bottom: 15px;
+}
+.contant_row p:last-child {
+  margin-bottom: 0;
+}
+.contant_row p.dull {
+  color: rgba(0, 0, 0, 0.6980392157);
+}
+.contant h2.price {
+  width: 201px;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+.contant_buttons {
+  display: flex;
+  gap: 20px;
+}
+.contant_buttons button {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.contant_buttons button.bag {
+  width: 203px;
+  height: 53px;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  background: #FFF;
+  color: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgb(66, 0, 255);
+  border-radius: 5px;
+}
+.contant_buttons button.bag:hover {
+  cursor: pointer;
+  background: rgb(150, 127, 215);
+  border: 0;
+  color: #FFF;
+}
+.contant_buttons button.berish {
+  width: 178px;
+  height: 53px;
+  padding: 15px 16px 15px 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  background: rgb(66, 0, 255);
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+}
+.contant_buttons button.berish:hover {
+  cursor: pointer;
+  background: #0debff;
+  color: rgb(66, 0, 255);
+}
+
+.type3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.button_complex {
+  width: 118px;
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background: #F2F3F5;
+  border-radius: 5px;
+}
+.button_complex button.complex {
+  display: block;
+  width: 51px;
+  height: 53px;
+  border: 0;
+  border-radius: 5px;
+  background: #F2F3F5;
+}
+.button_complex button.complex:hover {
+  cursor: pointer;
+  background: #e2e4e7;
+}
+.button_complex span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
